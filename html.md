@@ -24,12 +24,6 @@ To create a radio button for one multiple answer
 <label for="option">message</label>
 <!--To create a default checked radio button we need to add the 'checked' attribute on the input tag-->
 ```
-#### SO important tags
-```html
-<div></div>
-
-<!DOCTYPE html-version- > 
-```
 Use checkboxes
 ```html
 <!--It's similar as radio buttons-->

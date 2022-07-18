@@ -64,7 +64,7 @@ Ex.
 ```
 
 ## Absolute vs Relative
-- Absolute: Physial units of length. (in , mm)
+- Absolute: Physical units of length. (in , mm)
 - Relative: (em, rem) relate to another length value.
   * rem: It is relative to the root font-size. 
   * em: relative to the font-size of its direct or nearest parent.
@@ -140,6 +140,3 @@ We can use it to reassing a variable.
     }
   }
 ```
-Last topic
-
-Create Visual Balance Using the text-align Property
