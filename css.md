@@ -13,9 +13,8 @@
 |padding|Space within the border|
 |margin|Space out the border|
 |color|Elements Color we add `!important` to override upon everything|
-|||
-we use the `style=" color: colorName;"` to change the color.
 
+we use the `style=" color: colorName;"` to change the color.
 To create a general style, we use the style tags at the top or within the `<head>` labels.
 
 ```html 
@@ -51,11 +50,11 @@ Here is an example, we need to use the `rel='stylesheet'` y  `type='text/css'` p
 They are useful to style a single element, and to modify it with a script.
 - **Id** attributes should be unique. Also it has a higher relevance.
 - We can style an id with css using a `#id-name{}`
-```html
 
 A negative margin will cause the element grow.
 
 #### Another way to select and add style, is with the attribute selector
+
 - `[attribute = value]{}`
 Ex.
 ```html
