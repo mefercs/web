@@ -23,7 +23,7 @@
 #### BOX SHADOW
 
 |box-shadow|offset-x|offset-y|blur-radius|spread-radius|color|
-|---|---|---|---|---|---|---|
+|---|---|---|---|---|---| 
 |Description|x offset|y offset|Fade|dimesions|color|
 
 All of them with the color exception are in **px**.
