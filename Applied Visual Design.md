@@ -25,6 +25,7 @@
 |box-shadow|offset-x|offset-y|blur-radius|spread-radius|color|
 |---|---|---|---|---|---|---|
 |Description|x offset|y offset|Fade|dimesions|color|
+
 All of them with the color exception are in **px**.
  And also follow the table order.
 - spread and blur are optional. Color is with rgba()
@@ -53,3 +54,7 @@ Lock the element in place relative to its parent, removes the element to the nor
 - `Static position`
 
 <img src="https://miro.medium.com/max/858/1*iVt-tUfGKHZyEkspuu7LlQ.png">
+
+
+Last stuff
+Lock an Element to the Browser Window with Fixed Positioning
