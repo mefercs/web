@@ -24,7 +24,7 @@
 
 |box-shadow|offset-x|offset-y|blur-radius|spread-radius|color|
 |---|---|---|---|---|---| 
-|Description|x offset|y offset|Fade|dimesions|color|
+|Description|x offset(px)|y offset(px)|Fade(px)|dimesions(px)|color|
 
 All of them with the color exception are in **px**.
  And also follow the table order.
