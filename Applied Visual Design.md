@@ -1,6 +1,12 @@
 # Applied Visual Design
 
 - Opacity: 0 - 1
+Visualize the hit boxes.
+```html
+*{         box-sizing:border-box;
+    outline:1px solid limegreen !important
+  }
+```
 
 #### Text Align property
 
@@ -55,6 +61,12 @@ Lock the element in place relative to its parent, removes the element to the nor
 
 <img src="https://miro.medium.com/max/858/1*iVt-tUfGKHZyEkspuu7LlQ.png">
 
+- `Fixed position` it's like absolute, the elements don't realize it is there, but the difference between absolute and fixed, is that fixed won't move wont scrolling. We can position it as well with right/top/bottom/left.
 
-Last stuff
-Lock an Element to the Browser Window with Fixed Positioning
+- `Float attribute` it's not a complete 'position' but it allow you to place elements to the left or right position removing it from the normal flow, eventhough they are not removed from the flow.
+
+* If elements are overlaped we can select their stack position with the `z-index:` property.
+
+## Center a BLOCK element
+
+We can do it with `margin: auto` property.
