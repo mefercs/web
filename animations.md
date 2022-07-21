@@ -30,5 +30,10 @@ They allow us to use animations with offset properties.
 - For example with `right`|`left`|`bottom`|`top`
 
 ####  Bezier animation function
-It is use to control the animation times with the `cubic-bezier()` function.
-
+It is use to control the animation times with the `cubic-bezier()` function. The shape of the curver represent how the animation plays out.
+- The x-axis represents the animation duration.
+- The y-axis represents the animation change.
+Where we use p1(x1,y1) and p2(x2,y2) because p0 and p3 are the ends of the `square` (0,0) and (1,1) respectively. 
+- cubic-bezier(x1, y1, x2, y2) where y1,y2,x1,x2 are >=0 and <=1.
+Under the hood, p0 and p3 in combination with p1,p2 form a `line` so if we set p1 as (.25,.25) and p2(.75,.75) we create a linear function.
+**The p1 and p2 can contain values bigger than 1** :()
