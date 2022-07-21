@@ -3,7 +3,8 @@
 - Opacity: 0 - 1
 Visualize the hit boxes.
 ```html
-*{         box-sizing:border-box;
+*{
+    box-sizing:border-box;
     outline:1px solid limegreen !important
   }
 ```
@@ -63,10 +64,50 @@ Lock the element in place relative to its parent, removes the element to the nor
 
 - `Fixed position` it's like absolute, the elements don't realize it is there, but the difference between absolute and fixed, is that fixed won't move wont scrolling. We can position it as well with right/top/bottom/left.
 
-- `Float attribute` it's not a complete 'position' but it allow you to place elements to the left or right position removing it from the normal flow, eventhough they are not removed from the flow.
+- `Float attribute` it's not a complete 'position' but it allow you to place elements to the left or right position removing it from the normal flow, eventhough they are not removed from the flow. It could be combined with inline elements.
 
 * If elements are overlaped we can select their stack position with the `z-index:` property.
 
 ## Center a BLOCK element
 
 We can do it with `margin: auto` property.
+
+#### Color transition
+
+With `linear-gradien(gradient-direction(deg), color1, color2, color3 ....)`
+- Or also with `repeating-linear-gradient( direction, color stop, color stop, color stop ... )`
+When the stops(in px) are the same, we generate stripes, if the stops are not the same we generate colors blend.
+
+#### Background image
+We can add an url image with `background: url( url-to-image )`
+
+#### Change the element with the transform property
+```css
+transform: scale( x-times-to-scale )
+transform: skewX( degrees )
+transform: rotate( degrees )
+```
+#### before and after pseudo elements
+They required the `content=""` which is used to add text or images while `::before` and `::after` are used to create shapes.
+```css
+.heart::after {
+    background-color: blue;
+    content: "";
+    border-radius: 25%;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 0px;
+    left: 25px;
+  }
+  .heart::before {
+    content: "";
+    background-color: pink;
+    border-radius: 50%;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: -25px;
+    left: 0px;
+  }
+```
