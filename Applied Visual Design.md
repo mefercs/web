@@ -94,7 +94,7 @@ They required the `content=""` which is used to add text or images while `::befo
     background-color: blue;
     content: "";
     border-radius: 25%;
-    position: absolute;
+    position: absolute; <!--It is important to use the absolute position-->
     width: 50px;
     height: 50px;
     top: 0px;
