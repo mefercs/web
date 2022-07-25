@@ -29,5 +29,7 @@ Turns an element into a flex container, this make it possible to align any child
   - flex-shrink will shrink the element if the parent width is too small. 
 
 <img src="https://www.freecodecamp.org/news/content/images/2019/10/image-32.png" alt="Flex attributes">
+
 ## display : block
+
 Takes up the full width of the line it is on.
