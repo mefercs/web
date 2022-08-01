@@ -22,9 +22,9 @@ Turns an element into a flex container, this make it possible to align any child
 * TO THE ITEMS WITHIN THE CONTAINER 
 - order: <integer>;
 - flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ] 
-  - flex-grow: <number>; /* default 0 */ the flex-shrink opposite.
-  - flex-shrink: <number>; /* default 1 */ the bigger number smaller the shrink.
-  - flex-basis: <length> | auto; /* default auto */ we can add flex-grow and flex-shrink values next to flex-basis value in a single line.
+  - flex-grow: <number>; /* default 0 */ the flex-shrink opposite. This acts when the container expands.
+  - flex-shrink: <number>; /* default 1 */ the bigger number smaller the shrink. This acts when the parent shrinks.
+  - flex-basis: <length> | auto; /* default auto */ we can add flex-grow and flex-shrink values next to flex-basis value in a single line. It is the delimiter for shrink and grow.
 - align-self: auto | flex-start | flex-end | center | baseline | stretch; 
   - The  align-self is for a single element within the parent.
   - `order` is sometimes more useful to put elements in a specific order.
